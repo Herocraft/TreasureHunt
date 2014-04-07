@@ -1,0 +1,23 @@
+name: TreasureHunt
+main: me.taien.TreasureHunt
+version: 1.1
+softdepend: [Vault,WorldGuard,Towny]
+commands:
+   stattool:
+      description: Set up your tool (OBSIDIAN) for creating stationary chests.
+      usage: |
+           /stattool
+   starthunt:
+      description: Start a hunt.
+      usage: |
+           /starthunt, /starthunt <value>, or /starthunt here <value>.
+   top:
+      description: View the rankings for top treasure chest hunters.
+      usage: |
+           /top
+      aliases: thtop
+   hunt:
+      description: Get number of blocks to nearest TreasureHunt chest.
+      usage: |
+           /hunt
+      aliases: th

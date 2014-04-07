@@ -1,0 +1,211 @@
+Options:
+  SecondsBetweenChecks: 5
+  MaxSpawnAttempts: 1000
+  MaxAttemptsPerTick: 5
+  MinPlayersOnline: 4
+  UseCompass: false
+  3DDistances: false
+  FoundChestFadeTime: 5
+  DirectionalText: false
+  DetailLogs: false
+  Protection:
+    Break: true
+    Burn: true
+    Explode: true
+    Piston: true
+  ChestLevels:
+    Uncommon: 1500
+    Rare: 2500
+    Legendary: 3500
+    Epic: 4500
+WorldOptions:
+  world:
+    ItemList: 'Default'
+    HuntTool: ROTTEN_FLESH
+    OfferingTool: BONE
+    MarkerBlock: GLOWSTONE
+    FadeBlock: SOUL_SAND
+    ChestChance: 100
+    ChestInterval: 60
+    ChestDuration: 60
+    MaxDistance: 3000
+    MinDistance: 0
+    MaxCompassDistance: 1000
+    CenterX: 0
+    CenterZ: 0
+    DrawWeight: 2
+    AmountWeight: 3
+    GoodItemWeight: 2
+    MinLightLevel: 0
+    MaxLightLevel: 4
+    UseMarker: true
+    MinElevation: 4
+    MaxElevation: 50
+    MaxElevationRare: 25
+    ConsumeChance: 50
+    MinMoney: 100
+    MoneyMultiplier: 1.0
+    Enabled: false
+    MaxValue: 5000
+    LastCheck: 0
+    OverrideMinPlayers: false
+    FadeFoundChests: true
+    MinChests: 0
+    OfferAmount: 1
+    StrictItems: false
+    CanSpawnOn:
+    - STONE
+    - SMOOTH_BRICK
+    - MOSSY_COBBLESTONE
+    - OBSIDIAN
+WorldLists:
+  Default:
+    Common:
+      REDSTONE: 3
+      EGG: 5
+      STONE: 3
+      FEATHER: 2
+      GLASS: 3
+      BRICK: 2
+      IRON_FORTUNE1: 500
+      FLINT: 2
+      WHEAT: 3
+    Uncommon:
+      THIN_GLASS: 5
+      OBSIDIAN: 20
+      SMOOTH_STAIRS: 18
+      COOKED_BEEF: 20
+      RAILS: 10
+      SULPHUR: 10
+      SMOOTH_BRICK: 15
+      MOSSY_COBBLESTONE: 15
+      GLOWSTONE: 6
+      IRON_FORTUNE2: 750
+      COOKIE: 10
+      VINE: 7
+    Rare:
+      JACK_O_LANTERN: 50
+      PISTON_BASE: 70
+      GOLD_INGOT: 10
+      IRON_FORTUNE3: 2000
+      GOLD_NUGGET: 50
+      IRON_FENCE: 15
+      DIAMOND: 70
+      TNT: 40
+      CHAINMAIL_LEGGINGS: 200
+      SLIME_BALL: 30
+      GHAST_TEAR: 50
+      DIA_PROT4_DAM2: 1750
+      MAGMA_CREAM: 50
+      IRON_INGOT: 15
+      ENDER_PEARL: 25
+      CHAINMAIL_CHESTPLATE: 300
+      CHAINMAIL_BOOTS: 200
+      IRON_FORTUNE2: 750
+      CHAINMAIL_HELMET: 200
+      FERMENTED_SPIDER_EYE: 50
+    Legendary:
+      GOLDEN_APPLE: 500
+      DIAMOND_AXE: 400
+      DIAMOND_CHESTPLATE: 700
+      IRON_FORTUNE3: 1750
+      PUMPKIN_SEEDS: 150
+      DIAMOND_PICKAXE: 400
+      DIA_PROT4_DAM2: 1500
+      DIA_PROT4_DAM1: 2000
+      DIAMOND_SPADE: 350
+      DIAMOND_HELMET: 400
+      LAPIS_BLOCK: 100
+      DIAMOND_BOOTS: 500
+      DIAMOND_LEGGINGS: 400
+      PISTON_STICKY_BASE: 120
+      WEB: 60
+      DIAMOND_SWORD: 500
+    Epic:
+      RECORD_7: 1500
+      GREEN_RECORD: 1000
+      RECORD_11: 1500
+      IRON_BLOCK: 125
+      GOLD_RECORD: 1000
+      IRON_FORTUNE3: 1250
+      DIA_BADASS: 2500
+      DIAMOND_BLOCK: 550
+      WATER: 100
+      SPECKLED_MELON: 600
+      DIA_PROT4: 2500
+      RECORD_6: 1500
+      RECORD_3: 1500
+      FIRE: 300
+      GOLD_BLOCK: 80
+      RECORD_5: 1500
+      RECORD_4: 1500
+      RECORD_10: 1500
+      RECORD_9: 1500
+      RECORD_8: 1500
+      WATCH: 300
+EnchantedItems:
+  IRON_FORTUNE3:
+    ID: 257
+    Damage: 0
+    Effects:
+      DURABILITY: 3
+      LOOT_BONUS_BLOCKS: 3
+      DIG_SPEED: 2
+  IRON_FORTUNE2:
+    ID: 257
+    Damage: 0
+    Effects:
+      DURABILITY: 2
+      LOOT_BONUS_BLOCKS: 2
+      DIG_SPEED: 1
+  DIA_FORTUNE1:
+    ID: 278
+    Damage: 0
+    Effects:
+      DURABILITY: 1
+      LOOT_BONUS_BLOCKS: 1
+  DIA_BADASS:
+    ID: 278
+    Damage: 0
+    Effects:
+      DURABILITY: 3
+      LOOT_BONUS_BLOCKS: 3
+      DIG_SPEED: 3
+  DIA_FORTUNE2:
+    ID: 278
+    Damage: 0
+    Effects:
+      DURABILITY: 3
+      LOOT_BONUS_BLOCKS: 3
+  DIA_PROT4:
+    ID: 311
+    Damage: 0
+    Effects:
+      PROTECTION_ENVIRONMENTAL: 4
+  DIA_PROT4_DAM2:
+    ID: 311
+    Damage: 800
+    Effects:
+      PROTECTION_ENVIRONMENTAL: 4
+  IRON_FORTUNE1:
+    ID: 257
+    Damage: 0
+    Effects:
+      DURABILITY: 1
+      LOOT_BONUS_BLOCKS: 1
+  DIA_PROT4_DAM1:
+    ID: 311
+    Damage: 300
+    Effects:
+      PROTECTION_ENVIRONMENTAL: 4
+StationaryChests: []
+CustomLists:
+  ExampleCustomList:
+    IRON_FORTUNE1: 400
+    GOLDEN_APPLE: 300
+    STONE: 1
+  AnotherExampleCustomList:
+    WOOL:10: 400
+    COBBLESTONE: 400
+    DIA_PROT4_DAM1: 4000
+CompassBlocks: []

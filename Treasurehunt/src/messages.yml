@@ -1,0 +1,25 @@
+Options:
+  PluginTag: '&e[&6TreasureHunt 1.1&e]'
+Messages:
+  SpawnedChest: <tag> &fA <rarity> &ftreasure chest (Value:<value>) appeared in &9<worldname>&f!
+  PlayerCloseToChest: <tag> &fA player is very close to the <rarity> value <value> &fchest!
+  YouAreClosest: <tag> &aYou are now the closest player to the <rarity> value <value> &achest!
+  NoLongerClosest: <tag> &cYou are no longer the closest player to the <rarity> value <value> &cchest!
+  PlayerFoundChest: <tag> &fThe chest of value &a<value> &fhas been claimed by &2<pname> &fat &a<location>&f!
+  MoneyFound: <tag> &aYou found <amount> in the chest!
+  FoundChestFaded: ''
+  UnoundChestFaded: <tag> &fThe chest of value &a<value> &fhas &cfaded &fwithout being found!
+  AlreadyClaimed: '&7This <rarity> &7chest has already been claimed by &a<pname>&7!'
+  ClosestChest: '&7The closest chest (of <numhunts>) is currently &9<distance> &7blocks away.'
+  NoChests: '&7No hunts are currently active in this world!'
+  OfferItem: '&7You offer the altar a &9<item>&7...'
+  CompassChange: '&7...and your compass needle starts pointing madly in a certain direction!'
+  CompassNoChange: '&7...but your compass needle doesn''t change.'
+  Directional: '&7The chest seems to be somewhere <direction>.'
+Directions:
+  Forward: 'ahead of you'
+  Backward: 'behind you'
+  Above: 'above you'
+  Below: 'below you'
+  Left: 'to your left'
+  Right: 'to your right'
